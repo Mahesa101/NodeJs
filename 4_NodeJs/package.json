@@ -1,0 +1,17 @@
+{
+  "name": "npmpackages",
+  "version": "1.0.0",
+  "description": "Belajara Nodejs",
+  "license": "ISC",
+  "author": "Mahesa",
+  "type": "commonjs",
+  "main": "Npm.js",
+  "scripts": {
+    "start": "node Npm",
+    "folder": "ls",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "validator": "^13.5.2"
+  }
+}
