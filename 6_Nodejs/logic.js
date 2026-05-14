@@ -1,6 +1,6 @@
 //Require
 const fs = require("fs"); //sebuah cara mengecek file
-const readline = require("node:readline"); //otak semua method core module
+const readline = require("node:readline"); //method baca
 const { stdin: input, stdout: output } = require("node:process"); //mengambil method input dan output dari method process atau sebuah method proses
 const rl = readline.createInterface({ input, output }); //memberikan value rl sebuah method input output
 
