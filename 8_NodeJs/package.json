@@ -1,0 +1,18 @@
+{
+  "name": "exercise",
+  "version": "1.0.0",
+  "description": "Membuat sebuah CLI sederhana",
+  "license": "ISC",
+  "author": "Mahesa",
+  "type": "commonjs",
+  "main": "Contact_App.js",
+  "scripts": {
+    "start": "node Contact_App.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "validator": "^13.5.2",
+    "yargs": "^16.2.0"
+  }
+}
