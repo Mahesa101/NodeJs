@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tentang - GET dari Node.js</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Segoe UI', sans-serif; background: #f0f2f5; }
+        nav { background: #2c3e50; padding: 1rem; }
+        nav .container { max-width: 1100px; margin: auto; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; }
+        .logo { color: white; font-size: 1.5rem; font-weight: bold; }
+        .nav-links { display: flex; gap: 2rem; list-style: none; }
+        .nav-links a { color: white; text-decoration: none; padding: 0.5rem; }
+        .nav-links a:hover, .nav-links a.active { color: #3498db; border-bottom: 2px solid #3498db; }
+        main { max-width: 1100px; margin: 2rem auto; padding: 0 20px; }
+        .card { background: white; border-radius: 10px; padding: 2rem; box-shadow: 0 2px 10px rgba(0,0,0,0.1); margin-bottom: 2rem; }
+        h1 { color: #2c3e50; margin-bottom: 1rem; }
+        .data-box { background: #ecf0f1; padding: 1rem; border-radius: 8px; margin-top: 1rem; border-left: 4px solid #e67e22; }
+        footer { text-align: center; padding: 1rem; background: #2c3e50; color: white; margin-top: 2rem; }
+        button { background: #e67e22; color: white; border: none; padding: 0.5rem 1rem; border-radius: 5px; cursor: pointer; }
+        @media (max-width: 768px) { .nav-links { gap: 1rem; } }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <div class="logo">MyApp</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Beranda</a></li>
+                <li><a href="about.html" class="active">Tentang</a></li>
+                <li><a href="contact.html">Kontak</a></li>
+            </ul>
+        </div>
+    </nav>
+    <main>
+        <div class="card">
+            <h1>📖 Tentang Kami</h1>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2025 - Sistem GET dengan Node.js</p>
+    </footer>
+</body>
+</html>
